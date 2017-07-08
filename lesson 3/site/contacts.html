@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel = "stylesheet" type = "text/css" href = "..\style\style.css">
 	<title>Контакты</title>
 	<meta charset="utf-8">
 </head>
@@ -8,13 +9,13 @@
 <h1>Контакты</h1>
 <hr>
 <h2>Меню</h2>
-<ul>
+<ul class="menu">
 	<li><a href = "index.html" >Главная</a></li>
 	<li><a href = "catalog.html" >Каталог</a></li>
 	<li><a href = "contacts.html" >Контакты</a></li>
 </ul>
 <hr>
-<form>
+<form class="contacts">
 	<fieldset>
 		<legend><h3>Напишите нам</h3></legend>
 		<input type="text" placeholder = "Имя"><br>
@@ -24,11 +25,10 @@
 		<textarea cols="100" rows="5"></textarea>
 	</fieldset>
 </form>
-<form>
-<fieldset>
-<legend><h3>Контактные данные</h3></legend>
-"Контактный номер магазина"
-<br>
+<form class="contacts">
+	<fieldset>
+		<legend><h3>Контактные данные</h3></legend>
+"Контактный номер магазина"<br>
 <br>"Адрес"
 <br>"E-mail"
 <br>"Рандомная инфа о магазине"

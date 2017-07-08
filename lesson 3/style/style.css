@@ -1,0 +1,58 @@
+body {
+	background:#f8f8f8;
+}
+.menu li {
+	font-style:italic;
+	font-variant:small-caps;
+	font-size:large;
+	list-style:none;
+}
+.menu li a {
+	color:#808000;
+}
+.tovar {
+	font-size:18px;
+	font-weight:400;
+	color:#000000;
+	background:#eaeaea;
+	padding:2px;
+}
+.tovar_short {
+	color:#707070;
+	font-size:14px;
+	font-style:italic;
+	line-height:16px;
+}
+.tovar_full {
+	color:#484383;
+	font-size:16px;
+	font-weight:400;
+	line-height:24px;
+	text-align:justify;
+}
+.tovar_ul li {
+	list-style-image:url("5gramm.png");
+	color:#12ad45;
+	font-size:20px;
+	font-style:italic;
+	font-weight: 900;
+}
+.contacts input {
+	width:400px;
+	height:20px;
+	font-style:italic;
+	color:#dc143c;
+}
+.contacts textarea {
+	resize:none;
+	width:1000px;
+	height:200px;
+}
+.contacts fieldset legend {
+	color:#dc143c;
+}
+img {
+    border-width:4px;
+    border-style:double;
+    border-color:#008000;
+}
