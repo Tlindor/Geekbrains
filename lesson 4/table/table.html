@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="..\css\tablecss.css">
+	<title>Таблицы</title>
+</head>
+<body>
+	<table class="table">
+		<tr>
+			<td rowspan="3" width="33%">1</td>
+			<td width="33%" height="20px">2</td>
+			<td width="33%">3</td>
+		</tr>
+		<tr>
+			<td colspan="2">4</td>
+		</tr>
+		<tr>
+			<td width="33%" height="20px">7</td>
+			<td width="33%">8</td>
+		</tr>
+	</table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<table class="table">
+	<tr>
+		<td colspan="2" width="66%" height="20px">1</td>
+		<td width="33%">2</td>
+	</tr>
+	<tr>
+		<td width="33%">4</td>
+		<td colspan="2" rowspan="2" width="66%" align="center">
+			<table class="table2">
+				<tr>
+					<td height="33%">1</td>
+					<td rowspan="3" height="66%">2</td>
+					<td rowspan="2" height="100%">3</td>
+				</tr>
+				<tr>
+					<td rowspan="2" height="66%">4</td>
+				</tr>
+				<tr>
+					<td height="33%">7</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td width="33%">7</td>
+	</tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<table class="tableform">
+	<tr>
+		<td>Фамилия</td>
+		<td><input type="text"></td>
+	</tr>
+	<tr>
+		<td>Имя</td>
+		<td><input type="text"></td>
+	</tr>
+	<tr>
+		<td>Пол</td>
+		<td>
+			<p><input type="radio" name="sex" value="male">Мужской</p>
+			<p><input type="radio" name="sex" value="female">Женский</p>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2"><input type = "submit" value = "Отправить"></td>
+	</tr>
+</table>
+</body>
+</html>
