@@ -1,0 +1,65 @@
+body {
+	background: silver
+}
+#div1 {
+	position: absolute;
+	border: 3px solid black;
+	width: 250px;
+	height: 250px;
+	margin: 1px;
+	float: left;
+}
+.table1 table {
+	width: 250px;
+	height: 250px;
+	border-spacing: 0;
+	padding: 1px
+	border-collapse: collapse;
+}
+.table1 td {
+	width: 98px;
+	height: 98px;
+}
+#b1 {
+	background-color: green;
+}
+#b2 {
+	background-color: white;
+}
+#b3 {
+	background-color: black;
+}
+#b4 {
+	background-color: brown;
+}
+#div2 {
+	position: absolute;
+	left: 270px;
+	background-color: gray;
+	border: 3px solid black;
+	margin: 1px;
+	margin-left: 2px;
+	padding: 37.5px;
+	float: left;
+}
+#d1 {
+	width: 500px;
+	height: 175px;
+	background-color: red;
+}
+.blue {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 200px;
+	background-color: blue;
+}
+#blue1 {
+	left: 170px;
+}
+#blue2 {
+	left: 390px;
+}
+#blue3 {
+	left: 610px;
+}
